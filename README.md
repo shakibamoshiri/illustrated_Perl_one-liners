@@ -55,8 +55,8 @@ Of course everything that you dump, STILL, belongs to the two dictionaries.
 
 # handy-quick-hack with one-liners
 ### dumps definitions, examples, and sounds file , from Oxford Dictionary Online
-### Still, I am think about put it in a video file or a picture! I do not know!
+#### Still, I am thinking about put it in a video file or a picture! I do not know!
 
 # handy-quick-hack with one-liners 
 ### dumps definitions, examples, and sounds file, from Longman Dictionary Online
-### Still, I am think about put it in a video file or a picture! I do not know!
+#### Still, I am thinking about put it in a video file or a picture! I do not know!
