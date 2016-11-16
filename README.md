@@ -9,9 +9,11 @@ some mistakes here or on the pictures I apologize about that.
 
 I hope this style of Perl one-liner would be fun for you
 
+Format: ![illustrate Perl one-liners]()
+
 **License**
 
-Before I create this repository I got allow from Peteris Krumins
+Before I create this repository I got allow from [Peteris Krumins](https://github.com/pkrumins)
 who have written a book about Perl one-liners and I have read
 that book and 99% of the one-liners take from this book.
 
