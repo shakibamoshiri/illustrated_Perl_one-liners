@@ -33,7 +33,7 @@ that book and 99% of the one-liners take from this book.
 
 7. using **ffmpeg** to add audio file to *mp4* which I created
    - with: `ffmpeg -i video -i audio -c:v -codec -shortest output`
-8. Make alias from '#' in .bashrc
+8. make alias from '#' in .bashrc
    - with: `alias comment:='#'`
 9. make a function in .bashrc to clear screen every time that I needed to clear it
 
@@ -49,14 +49,14 @@ function cls(){
 
 #WARNING :warning:
 The two below **handy-code** are JUST for fun and show how to use one-liners in use.
-Of course everything that you dump, STILL, belongs to the two dictionary.
+Of course everything that you dump, STILL, belongs to the two dictionaries.
 
 
 
 # handy-quick-hack with one-liners
 ### dumps definitions, examples, and sounds file , from Oxford Dictionary Online
+### Still, I am think about put it in a video file or a picture! I do not know!
 
 # handy-quick-hack with one-liners 
 ### dumps definitions, examples, and sounds file, from Longman Dictionary Online
-
-
+### Still, I am think about put it in a video file or a picture! I do not know!
