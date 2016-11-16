@@ -34,13 +34,16 @@ that book and 99% of the one-liners take from this book.
 8. Make alias from '#' in .bashrc
    - with: `alias comment:='#'`
 9. make a function in .bashrc to clear screen every time that I needed to clear it
-   ```bash
-   function cls(){
-       clear
-           figlet -r Perl one-liners | lolcat -d 1
-	       echo -en "            \e[2;32mSee more illustrated one-liners on my github: \e[2;37m    github.com/k-five\e[0\n"
-	       }
-	       ```
+
+```bash
+function cls(){
+    clear
+    figlet -r Perl one-liners | lolcat -d 1
+    echo -en "            \e[2;32mSee more illustrated one-liners on my github: \e[2;37m    github.com/k-five\e[0\n"
+}
+```
+
+
 
 #WARNING :warning:
 The two below **handy-code** are JUST for fun and show how to use one-liners in use.
