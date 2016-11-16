@@ -18,7 +18,7 @@ who have written a book about Perl one-liners and I have read
 that book and 99% of the one-liners take from this book.
 
 
-#Waht tools have I used?
+#What tools have I used?
 1. konsole ( terminal of KDE )
 2. takes a picture from the window with `Alt + Print` key
    - or using command line: `gnome-screenshot -w -f` that has used it in **spacing** 
