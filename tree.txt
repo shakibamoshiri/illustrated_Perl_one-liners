@@ -1,0 +1,131 @@
+.
+├── [4.0K]  0_introduction
+│   ├── [216K]  0.mp3
+│   ├── [4.0K]  gif
+│   │   └── [120K]  introduction_animation.gif
+│   ├── [4.0K]  mp4
+│   │   ├── [267K]  introduction_slideshow.mp4
+│   │   └── [448K]  introduction_slideshow_sounded.mp4
+│   └── [4.0K]  png
+│       ├── [ 34K]  00_introduction.Help.And.Version.png
+│       ├── [ 20K]  01_introduction.Special.Variable.Summary.png
+│       ├── [ 23K]  02_introduction.Regex.Summary.png
+│       ├── [ 25K]  03_introduction.Most.Common.Usage.Argument.png
+│       └── [ 28K]  04_introduction.Built-In_Functoin.png
+├── [4.0K]  1_spacing
+│   ├── [528K]  1.mp3
+│   ├── [4.0K]  gif
+│   │   └── [246K]  spacing_animation.gif
+│   ├── [4.0K]  mp4
+│   │   ├── [301K]  spacing_slideshow.mp4
+│   │   └── [741K]  spacing_slideshow_sounded.mp4
+│   └── [4.0K]  png
+│       ├── [ 21K]  01_spacing.Double.Space.A.File.1.png
+│       ├── [ 19K]  01_spacing.Double.Space.A.File.2.png
+│       ├── [ 18K]  02_spacing.Double.Space.A.File.Excluding.The.Blank.Line.png
+│       ├── [ 19K]  03_spacing.Triple-Space.A.File.png
+│       ├── [ 18K]  04_spacing.N-Space.A.File.png
+│       ├── [ 16K]  05_spacing.Add.A.Blank.Line.Before.Every.Line.png
+│       ├── [ 20K]  06_spacing.Remove.All.Blank.Lines.png
+│       ├── [ 18K]  07_spacing.Remove.All.Consecutive.Blank.Lines.Leaving.Only.One.png
+│       ├── [ 18K]  08_spacing.Expend.All.Blank.Lines.Into.N-Consecutive.Lines.png
+│       ├── [ 21K]  09_spacing.Double.Space.Or.More.Between.All.Words.png
+│       ├── [ 25K]  10_spacing.Remove.All.Space.Between.Word.png
+│       ├── [ 26K]  11_spacing.Change.All.Space.Between.Words.To.One.Space.png
+│       └── [ 25K]  12_spacing.Insert.A.Space.Between.All.Characters.png
+├── [4.0K]  2_numbering
+│   ├── [646K]  2.mp3
+│   ├── [4.0K]  gif
+│   │   └── [299K]  numbering_animation.gif
+│   ├── [4.0K]  mp4
+│   │   ├── [351K]  numbering_slideshow.mp4
+│   │   └── [887K]  numbering_slideshow_sounded.mp4
+│   └── [4.0K]  png
+│       ├── [ 17K]  01_numbering.Numbering.Number.All.Line.In.A.File.png
+│       ├── [ 18K]  02_numbering.Numbering.Number.Only.Non-Empty.Lines.In.A.File.png
+│       ├── [ 19K]  03_numbering.Numbering.Number.Only.Non-Empty.Lines.In.A.File.(But.Drops.Empty.Lines).png
+│       ├── [ 17K]  04_numbering.Number.All.Lines.But.Print.Only.For.Non-Empty.Lines.png
+│       ├── [ 18K]  05_numbering.Number.Only.Lines.That.Match.A.Pattern.1.png
+│       ├── [ 21K]  05_numbering.Number.Only.Lines.That.Match.A.Pattern.2.png
+│       ├── [ 23K]  06_numbering.Number.And.Print.Only.Lines.That.Match.A.Pattern.png
+│       ├── [ 19K]  07_numbering.Number.All.Lines.But.Print.Line.Numbers.Ony.For.Lines.That.Match.A.Pattern.png
+│       ├── [ 22K]  08_numbering.Numer.All.Lines.In.A.File.Using.A.Custom.Format.png
+│       ├── [ 21K]  09_numbering.Print.The.Total.Number.Of.Lines.png
+│       ├── [ 22K]  10_numbering.Print.The.Number.Of.Non-Empty.Line.png
+│       ├── [ 17K]  11_numbering.Print.The.Number.Of.Empty.Lines.png
+│       ├── [ 17K]  12_numbering.Print.The.Number.Of.Lines.That.Match.A.Pattern.png
+│       ├── [ 22K]  13_numbering.Number.Words.Across.All.Line.png
+│       ├── [ 21K]  14_numbering.Number.Words.On.Each.Individual.Line.png
+│       └── [ 22K]  15_numbering.Replace.All.Words.With.Their.Numberic.Position.png
+├── [4.0K]  3_calculations
+│   ├── [1.1M]  3.mp3
+│   ├── [4.0K]  gif
+│   │   └── [578K]  calculations_animation.gif
+│   ├── [4.0K]  mp4
+│   │   ├── [733K]  calculation_slideshow.mp4
+│   │   └── [1.7M]  calculation_slideshow_sounded.mp4
+│   └── [4.0K]  png
+│       ├── [ 20K]  01_calculations.Check.If.A.Number.Is.Prime.png
+│       ├── [ 18K]  02_calculations.Print.The.Sum.Of.All.Fields.On.Each.Line.1.png
+│       ├── [ 24K]  03_calculations.Print.The.Sum.Of.All.Fields.On.Each.Line.png
+│       ├── [ 19K]  04_calculations.Print.The.Sum.Of.All.Fields.On.All.Lines.png
+│       ├── [ 23K]  05_calculations.Shuffle.All.Fields.On.Each.Line.png
+│       ├── [ 22K]  06_calculations.Find.The.Numerically.Smallest.Element.On.Each.Line.png
+│       ├── [ 22K]  07_calculations.Find.The.Numerically.Smallest.Element.Over.All.Lines.png
+│       ├── [ 18K]  08_calculations.Find.The.Numerically.Largest.Element.On.Each.Line.png
+│       ├── [ 17K]  09_calculations.Find.The.Numerically.Largest.Element.Over.All.Lines.png
+│       ├── [ 16K]  10_calculations.Replace.Each.Field.With.Its.Absolut.Value.png
+│       ├── [ 15K]  11_calculations.Print.The.Total.Number.Of.Fields.On.Each.Line.png
+│       ├── [ 18K]  12_calculations.Print.The.Total.Number.Of.Fields.On.Each.Line.Followed.By.The.Line.png
+│       ├── [ 17K]  13_calculations.Print.The.Total.Number.Of.Fields.On.All.Lines.png
+│       ├── [ 25K]  14_calculations.Print.The.Total.Number.Of.Fields.That.Match.A.Pattern.png
+│       ├── [ 20K]  15_calculations.Print.The.Total.Number.Of.Lines.That.Match.A.Pattern.png
+│       ├── [ 26K]  16_calculations.Print.The.Numper.'pi'.png
+│       ├── [ 25K]  17_calculations.Print.The.Number.'e'.png
+│       ├── [ 15K]  18_calculations.Print.UNIX.Time.png
+│       ├── [ 24K]  19_calculations.Print.Greenwhich.Mean.Time.And.Local.Computer.Time.png
+│       ├── [ 24K]  20_calculations.Print.Yesterday'S.Date.png
+│       ├── [ 22K]  21_calculations.Print.The.Date.14.Months.9.Days.And.7.Seconds.Ago.png
+│       ├── [ 30K]  22_calculations.Calculate.The.Factorial.png
+│       ├── [ 20K]  23_calculations.Calculate.The.Greatest.Common.Divisor.png
+│       ├── [ 17K]  24_calculations.Calculate.The.Least.Common.Multiple.png
+│       ├── [ 29K]  25_calculations.Generate.10.Random.Numbers.Between.5.And.10.png
+│       ├── [ 22K]  26_calculations.Generate.All.Permutations.Of.A.List.png
+│       ├── [ 20K]  27_calculations.Generate.The.Powerset.png
+│       ├── [ 22K]  28_calculations.Convert.An.IP.Address.To.An.Unsigned.Integer.png
+│       └── [ 25K]  29_calculations.Convert.An.Unsigned.Integer.To.An.IP.Address.png
+├── [4.0K]  4_array_and_string
+│   ├── [763K]  4.mp3
+│   ├── [4.0K]  gif
+│   │   └── [425K]  array_and_string_animation.gif
+│   ├── [4.0K]  mp4
+│   │   ├── [695K]  array_and_string_slideshow.mp4
+│   │   └── [1.3M]  array_and_string_slideshow_sounded.mp4
+│   └── [4.0K]  png
+│       ├── [ 25K]  01_array_and_string.Generate.And.Print.The.Alphabet.png
+│       ├── [ 44K]  02_array_and_string.Generate.And.Print.All.The.Strings.Form."A".To."Zz".png
+│       ├── [ 19K]  03_array_and_string.Create.A.Hex.Lookup.Table.png
+│       ├── [ 23K]  04_array_and_string.Generate.A.Random.Eight-Character.Password.png
+│       ├── [ 21K]  05_array_and_string.Generate.A.Random.Password.With.Numbers.And.Letters.png
+│       ├── [ 22K]  06_array_and_string.Generate.10.Random.Password.With.Numbers.And.Letters.png
+│       ├── [ 29K]  07_array_and_string.Generate.A.Complicated.Symbol.For.Password.Not.In.The.Book.png
+│       ├── [ 28K]  08_array_and_string.Generate.Full.Password.Not.In.The.Book.png
+│       ├── [ 19K]  10_array_and_string.Create.A.String.Of.Specific.Length.png
+│       ├── [ 25K]  11_array_and_string.Create.An.Array.Of.Characters.From.String.Not.In.The.Book.png
+│       ├── [ 29K]  12_array_and_string.Create.An.Array.Of.Words.From.String.Not.In.The.Book.png
+│       ├── [ 18K]  13_array_and_string.Create.An.Array.Of.Sentences.From.String.Not.In.The.Book.png
+│       ├── [ 18K]  14_array_and_string.Create.A.String.From.A.Command-Line.Arguments.png
+│       ├── [ 25K]  15_array_and_string.Find.The.Numeric.Values.For.Characters.In.A.String.png
+│       ├── [ 22K]  16_array_and_string.Convert.A.List.Of.Numeric.ASCII.Values.Into.A.String.png
+│       ├── [ 22K]  17_array_and_string.Generate.An.Array.With.Odd.Numbers.png
+│       ├── [ 18K]  18_array_and_string.Generate.An.Array.With.Even.Numbers.png
+│       ├── [ 18K]  19_array_and_string.Find.The.Length.Of.A.String.png
+│       └── [ 27K]  20_array_and_string.Find.The.Number.Of.Elements.In.An.Array.png
+├── [ 19K]  ipol.png
+├── [3.0K]  README.md
+├── [  25]  repository_size_is_17M
+├── [  25]  there_are_83_png_files
+├── [   0]  tree.txt
+└── [ 280]  up.sh
+
+20 directories, 108 files

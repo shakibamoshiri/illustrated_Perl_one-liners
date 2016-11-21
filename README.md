@@ -2,20 +2,21 @@ Hello everyone :blush:
 
 This is my idea to put Perl one-liners in more attractive style.
 I am not a hacker and of course not even a programmer and JUST
-I am new typist in **C++** and **Perl**
+I am a new typist in **C++** and **Perl**
 
-Also I am beginner in `writing` in English and may be you find
-some mistakes here or on the pictures I apologize about that.
+Also I am beginner in `writing` English and may be you will find
+some mistakes here or on the pictures, so _I apologize about that._
 
-I hope this style of Perl one-liner would be fun for you
+I hope this style of Perl one-liner would be fun and useful for you.
 
-Screenshot: ![illustrate Perl one-liners](https://github.com/k-five/illustrated_Perl_one-liners/blob/master/ipnl.png)
+Screenshot: ![illustrate Perl one-liners](https://github.com/k-five/illustrated_Perl_one-liners/blob/master/ipol.png)
 
 **License**
 
-Before I create this repository I got allow from [Peteris Krumins](https://github.com/pkrumins)
+Before I created this repository I got allow from [Peteris Krumins](https://github.com/pkrumins)
 who have written a book about Perl one-liners and I have read
-that book and 99% of the one-liners take from this book.
+that book and 99% of the one-liners take from this book. But
+a few of them not in the book, like: **generate full password** or ...
 
 
 #What tools have I used?
@@ -45,6 +46,23 @@ function cls(){
 }
 ```
 
+# How to use:
+first
+      - `git clone https://github.com/k-five/illustrated_Perl_one-liners`
+      - `cd illustrated_Perl_one-liners`
+
+Then:  
+1. using **animate**
+   - `animate *.png` it will show you all png in animation style
+   - `animate -delay 100 *.png` it will show you with delay of 1 second
+
+2. using **gnome-open**
+   - `gnome-open file.gif` or `gnome-open file.png`
+
+3. using **mpv**
+   - `mpv file.mp4`
+   - may be you do like download the file and only want to watch in so:
+     - `mpv https://github.com/k-five/illustrated_Perl_one-liners/1_numbering/mp4/numbering_slideshow.mp4` it is played for you
 
 
 #WARNING :warning:
