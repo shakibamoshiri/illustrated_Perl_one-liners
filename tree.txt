@@ -4,8 +4,7 @@
 │   ├── [4.0K]  gif
 │   │   └── [120K]  introduction_animation.gif
 │   ├── [4.0K]  mp4
-│   │   ├── [267K]  introduction_slideshow.mp4
-│   │   └── [448K]  introduction_slideshow_sounded.mp4
+│   │   └── [267K]  introduction_slideshow.mp4
 │   └── [4.0K]  png
 │       ├── [ 34K]  00_introduction.Help.And.Version.png
 │       ├── [ 20K]  01_introduction.Special.Variable.Summary.png
@@ -17,8 +16,7 @@
 │   ├── [4.0K]  gif
 │   │   └── [246K]  spacing_animation.gif
 │   ├── [4.0K]  mp4
-│   │   ├── [301K]  spacing_slideshow.mp4
-│   │   └── [741K]  spacing_slideshow_sounded.mp4
+│   │   └── [301K]  spacing_slideshow.mp4
 │   └── [4.0K]  png
 │       ├── [ 21K]  01_spacing.Double.Space.A.File.1.png
 │       ├── [ 19K]  01_spacing.Double.Space.A.File.2.png
@@ -38,8 +36,7 @@
 │   ├── [4.0K]  gif
 │   │   └── [299K]  numbering_animation.gif
 │   ├── [4.0K]  mp4
-│   │   ├── [351K]  numbering_slideshow.mp4
-│   │   └── [887K]  numbering_slideshow_sounded.mp4
+│   │   └── [351K]  numbering_slideshow.mp4
 │   └── [4.0K]  png
 │       ├── [ 17K]  01_numbering.Numbering.Number.All.Line.In.A.File.png
 │       ├── [ 18K]  02_numbering.Numbering.Number.Only.Non-Empty.Lines.In.A.File.png
@@ -62,8 +59,7 @@
 │   ├── [4.0K]  gif
 │   │   └── [578K]  calculations_animation.gif
 │   ├── [4.0K]  mp4
-│   │   ├── [733K]  calculation_slideshow.mp4
-│   │   └── [1.7M]  calculation_slideshow_sounded.mp4
+│   │   └── [733K]  calculation_slideshow.mp4
 │   └── [4.0K]  png
 │       ├── [ 20K]  01_calculations.Check.If.A.Number.Is.Prime.png
 │       ├── [ 18K]  02_calculations.Print.The.Sum.Of.All.Fields.On.Each.Line.1.png
@@ -99,8 +95,7 @@
 │   ├── [4.0K]  gif
 │   │   └── [425K]  array_and_string_animation.gif
 │   ├── [4.0K]  mp4
-│   │   ├── [695K]  array_and_string_slideshow.mp4
-│   │   └── [1.3M]  array_and_string_slideshow_sounded.mp4
+│   │   └── [695K]  array_and_string_slideshow.mp4
 │   └── [4.0K]  png
 │       ├── [ 25K]  01_array_and_string.Generate.And.Print.The.Alphabet.png
 │       ├── [ 44K]  02_array_and_string.Generate.And.Print.All.The.Strings.Form."A".To."Zz".png
@@ -121,11 +116,78 @@
 │       ├── [ 18K]  18_array_and_string.Generate.An.Array.With.Even.Numbers.png
 │       ├── [ 18K]  19_array_and_string.Find.The.Length.Of.A.String.png
 │       └── [ 27K]  20_array_and_string.Find.The.Number.Of.Elements.In.An.Array.png
-├── [ 19K]  ipol.png
-├── [3.0K]  README.md
-├── [  25]  repository_size_is_17M
-├── [  25]  there_are_83_png_files
+├── [4.0K]  5_conversion_and_substitution
+│   ├── [4.0K]  gif
+│   │   └── [485K]  5_conversion_and_substitution_animation.gif
+│   ├── [4.0K]  mp4
+│   └── [4.0K]  png
+│       ├── [ 28K]  01_conversion_and_substitution.ROT13.A.String.png
+│       ├── [ 32K]  02_conversion_and_substitution.ROT13.A.File.No.In.The.Book.png
+│       ├── [ 24K]  03_conversion_and_substitution.Base64-Encode.A.String.And.File.png
+│       ├── [ 26K]  04_conversion_and_substitution.Base64-Decode.A.String.Or.File.png
+│       ├── [ 19K]  05_conversion_and_substitution.URL-Escape.A.String.png
+│       ├── [ 16K]  06_conversion_and_substitution.URL-Unescape.A.String.png
+│       ├── [ 16K]  07_conversion_and_substitution.Comment:.HTML-Encode.And.Decode.A.String.png
+│       ├── [ 20K]  08_conversion_and_substitution.Convert.All.Text.To.Uppercase.png
+│       ├── [ 28K]  09_conversion_and_substitution.Convert.All.Text.To.Lowercase.png
+│       ├── [ 16K]  11_conversion_and_substitution.Invert.The.Letter.Case.png
+│       ├── [ 20K]  11_conversion_and_substitution.Uppercase.Only.The.Frist.Letter.On.Each.Line.png
+│       ├── [ 27K]  12_conversion_and_substitution.Title-Case.Each.Line.png
+│       ├── [ 21K]  13_conversion_and_substitution.Strip.Leading.Whitespace.From.The.Beginning.Of.Each.Line.png
+│       ├── [ 19K]  14_conversion_and_substitution.Strip.Leading.Whitespace.From.The.End.Of.Each.Line.png
+│       ├── [ 23K]  15_conversion_and_substitution.Strip.Whitespace.From.The.Beginning.And.End.Of.Each.Line.png
+│       ├── [ 19K]  17_conversion_and_substitution.Convert.UNIX.Newline.To.DOS-WINDOWS.Newline.png
+│       ├── [ 19K]  18_conversion_and_substitution.Convert.DOS-WINDOWS.Newline.To.UNIX.Newline.png
+│       ├── [ 16K]  19_conversion_and_substitution.Convert.UNIX.Newline.To.Mac.Newline.png
+│       ├── [ 22K]  20_conversion_and_substitution.Substitute.A.Thing.With.Another.Thing.On.Each.Line.png
+│       ├── [ 19K]  21_conversion_and_substitution.Substitue.Two.Things.On.Lines.That.Match.A.Pettern.png
+│       ├── [ 23K]  22_conversion_and_substitution.Print.Paragraphs.In.Reverse.Order.png
+│       ├── [ 17K]  23_conversion_and_substitution.Print.Line.In.Reverse.Order.png
+│       ├── [ 21K]  24_conversion_and_substitution.Print.All.Letters.In.Lines.In.Reverse.Order.png
+│       └── [ 20K]  25_conversion_and_substitution.Print.Columns.In.Reverse.Order.png
+├── [4.0K]  6_selectivly_and_deleting
+│   ├── [4.0K]  gif
+│   │   └── [636K]  6_selectivly_and_deleting_animation.gif
+│   ├── [4.0K]  mp4
+│   └── [4.0K]  png
+│       ├── [ 22K]  01_selectivly_and_deleting.Print.The.First.Line.Of.A.File.png
+│       ├── [ 21K]  02_selectivly_and_deleting.Print.The.First.10.Lines.Of.A.File.png
+│       ├── [ 19K]  03_selectivly_and_deleting.Print.The.Last.Line.Of.A.File.png
+│       ├── [ 20K]  04_selectivly_and_deleting.Print.The.Last.3.Lines.Of.A.File.png
+│       ├── [ 21K]  05_selectivly_and_deleting.Print.Only.Lines.That.Match.A.Regex.png
+│       ├── [ 21K]  06_selectivly_and_deleting.Print.Only.Lines.That.Do.Not.Match.A.Regex.png
+│       ├── [ 19K]  07_selectivly_and_deleting.Print.Every.Line.Preceding.A.Line.That.Matches.A.Regex.png
+│       ├── [ 18K]  08_selectivly_and_deleting.Print.Every.Line.Following.A.Line.That.Matches.A.Regex.png
+│       ├── [ 17K]  09_selectivly_and_deleting.Print.Lines.That.Match.Regular.Expressions.AAA.And.BBB.In.Any.Order.png
+│       ├── [ 19K]  10_selectivly_and_deleting.Print.Lines.That.Match.Regex.AAA.Following.By.BBB.Following.By.CCC.png
+│       ├── [ 22K]  11_selectivly_and_deleting.Print.Line.That.Has.The.Same.Beginning.And.End.png
+│       ├── [ 24K]  12_selectivly_and_deleting.Print.Match.Between.The.Same.Regex.png
+│       ├── [ 19K]  13_selectivly_and_deleting.Print.Lines.That.Are.At.Least.Special.Characters.Length.png
+│       ├── [ 22K]  14_selectivly_and_deleting.Print.Lines.That.Are.Fewer.That.Special.Character.Long.png
+│       ├── [ 18K]  15_selectivly_and_deleting.Print.Lines.That.Are.Between.Two.Special.Long.png
+│       ├── [ 20K]  16_selectivly_and_deleting.Print.Lines.Except.Lines.Between.Two.Special.Long.png
+│       ├── [ 18K]  17_selectivly_and_deleting.Print.Only.Special.Line.png
+│       ├── [ 21K]  18_selectivly_and_deleting.Print.All.Lines.Except.A.Special.Line.png
+│       ├── [ 17K]  19_selectivly_and_deleting.Print.Some.Special.Lines.png
+│       ├── [ 21K]  20_selectivly_and_deleting.Print.Lines.Between.A.Ragne.png
+│       ├── [ 22K]  21_selectivly_and_deleting.Print.Lines.Not.Between.A.Ragne.png
+│       ├── [ 19K]  22_selectivly_and_deleting.Print.All.Lines.Between.Two.Regex.png
+│       ├── [ 20K]  23_selectivly_and_deleting.Print.The.Longest.Line.png
+│       ├── [ 23K]  24_selectivly_and_deleting.Print.The.Shortest.Line.png
+│       ├── [ 22K]  25_selectivly_and_deleting.Print.Lines.Containing.Digits.png
+│       ├── [ 22K]  26_selectivly_and_deleting.Print.All.Lines.Containing.Only.Digits.png
+│       ├── [ 27K]  27_selectivly_and_deleting.Print.All.Lines.Containing.Only.Alphabetic.Characters.png
+│       ├── [ 20K]  27_selectivly_and_deleting.Print.Only.Second.Line.png
+│       ├── [ 20K]  28_selectivly_and_deleting.Print.Only.Second.Line,.Beginning.With.The.Secend.Line.png
+│       ├── [ 19K]  29_selectivly_and_deleting.Print.All.Repeated.Lines.Only.Once.png
+│       ├── [ 23K]  30_selectivly_and_deleting.Print.All.Unique.Lines.png
+│       ├── [ 25K]  31_selectivly_and_deleting.Print.All.Unique.Lines.2.png
+│       └── [ 27K]  32_selectivly_and_deleting.Print.All.Unique.Words.png
+├── [3.1K]  README.md
+├── [  25]  repository_size_is_27M
+├── [  25]  there_are_140_png_files
 ├── [   0]  tree.txt
-└── [ 280]  up.sh
+├── [ 280]  up.sh
+└── [ 23K]  welcome_to_ipol.png
 
-20 directories, 108 files
+28 directories, 162 files
