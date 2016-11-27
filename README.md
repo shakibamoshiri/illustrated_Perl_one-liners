@@ -1,15 +1,13 @@
-Hello :blush:
-
-This is my idea to put Perl one-liners in more attractive style.
-So that you can see the output of each one-liners and understand
+This is my idea to put Perl one-liners in more attractive style.  
+So that you can see the output of each one-liners and understand  
 it convenience.  
-I am not a hacker and of course not even a programmer and *JUST*
-I am a new typist in **C++** and **Perl**
+I am not a hacker and of course not even a programmer and *JUST*  
+I am a new typist in **C++** and **Perl**  
 
-Also I am beginner in `writing` English and may be you will find
-some mistakes here or on the pictures, so _I apologize about that._
+Also I am beginner in `writing` English and may be you will find  
+some mistakes here or on the pictures, so _I apologize about that._  
 
-I hope this style of Perl one-liner would be fun and useful for you.
+I hope this style of Perl one-liner would be fun and useful for you.  
 
 Screenshot: ![illustrate Perl one-liners](https://github.com/k-five/illustrated_Perl_one-liners/blob/master/welcome_to_ipol.png)
 
@@ -17,7 +15,7 @@ Last shot: ![illustrate Perl one-liners](https://github.com/k-five/illustrated_P
 
 **License**
 
-Before I created this repository I allowed from [Peteris Krumins](https://github.com/pkrumins)
+I am allowed from [Peteris Krumins](https://github.com/pkrumins)
 who have written a book about Perl one-liners and I have read
 that book and 99% of the one-liners come from this book. But
 a few of them not in the book, like: **generate full password**  
