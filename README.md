@@ -83,30 +83,36 @@ Lastly we need Perl one-liners, which it will be:
 ## item two:
 dumping examples:
 ```Perl
-perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ foreach $emp (@M) { $emp =~ /.+[.!?]$/ ? print "\e[0;32m$emp" : print "\e[5;31mmissed example\e[m" } }'
+perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ foreach $file (@M) { print ++$n," : ",$file =~ /.+[.!?]$/g ? "\e[0;32m$file\e[m" : "\e[1;31mmissed example\e[m" } }'
+
 ```
 
 dumping definition:
 ```Perl
-perl -lne 'push @M,"$1" while /class="def".+?"> ?([a-z].+?)<(?!class)/g; END{ foreach $emp (@M) { $emp =~ / +/ ? print "\e[0;32m$emp" : print "\e[5;31mmissed example\e[m" } }'
+perl -lne 'push @M,"$1" while /class="def".+?"> ?([a-z].+?)<(?!class)/g; END{ foreach $file (@M) { print ++$n," : ",$file =~ / +/g ? "\e[0;32m$file\e[m" : "\e[1;31mmissed example\e[m" } }'
+
 ```
 
 dumping hear pronunciation: (us/uk need to use `mpv`)
 ```Perl
-perl -lne 'push (@M,"$1") while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pernunciation:\e[m"; foreach $file (@M) { $file =~ /us/i ? `mpv $file` : "" }}'
+perl -lne 'push @M,"$1" while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pronunciation:\e[m"; foreach $file (@M) { $file =~ /us/i && `mpv $file` } }'
+
 ```
 
 dumping download pronunciation:(us/uk  need to use `wget`)
 ```Perl
-perl -lne 'push (@M,"$1") while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pernunciation:\\e[m"; foreach $file (@M) { $file =~ /us/i ? `wget -c -q --show-progress $file` : "" }}'
+perl -lne 'push @M,"$1" while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pronunciation:\e[m"; foreach $file (@M) { $file =~ /us/i && `wget -c -q --show-progress $file` } }'
+
 ```
-summary you will have something like this: (for find definition)
+summary you will have something like this: (for find examples)
 ```bash
-clear; read -p "Enter a word: " word && . dump_page.sh $word | perl -lne 'push @M,"$1" while /class="def".+?"> ?([a-z].+?)<(?!class)/g; END{ foreach $emp (@M) { $\
-emp =~ / +/ ? print "\e[0;32m$emp" : print "\e[5;31mmissed example\e[m" } }'
+
+read -p "Enter a word: " word && . dump_page.sh $word | perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ foreach $file (@M) { print ++$n," : ",$file =~ /.+[.!?]$/g ? "\e[0;32m$file\e[m" : "\e[1;31mmissed example\e[m" } }'
 
 
 ```
+
+![dumps from oxford dictionary online](https://github.com/k-five/illustrated_Perl_one-liners/blob/master/dump_oxford.gif)
 
 ## item three
 Just enjoy :) -- that's it.
