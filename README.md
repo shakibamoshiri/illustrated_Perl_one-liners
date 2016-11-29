@@ -54,7 +54,7 @@ We do it in three item:
      - second put the address in a `bash` file
      - third dump which page we want
 
-### item one:
+## item one:
 The address of the site : http://www.oxfordlearnersdictionaries.com/
 
 If you search for a word like *see*, you will see this: (in address bar)  
@@ -80,7 +80,7 @@ which it will dump the source page of each word that you want. If you enter a wo
 Lastly we need Perl one-liners, which it will be:
 
 
-### item two:
+## item two:
 dumping examples:
 ```Perl
 perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ foreach $emp (@M) { $emp =~ /.+[.!?]$/ ? print "\e[0;32m$emp" : print "\e[5;31mmissed example\e[m" } }'
@@ -88,7 +88,7 @@ perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ fore
 
 dumping definition:
 ```Perl
-perl -lne 'push @M,"$1" while /class="def".+?"> ?([a-z].+?)\<(?!class)/g; END{ foreach $file (@M) {{ } }'
+perl -lne 'push @M,"$1" while /class="def".+?"> ?([a-z].+?)<(?!class)/g; END{ foreach $emp (@M) { $emp =~ / +/ ? print "\e[0;32m$emp" : print "\e[5;31mmissed example\e[m" } }'
 ```
 
 dumping hear pronunciation: (us/uk need to use `mpv`)
@@ -98,10 +98,19 @@ perl -lne 'push (@M,"$1") while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32
 
 dumping download pronunciation:(us/uk  need to use `wget`)
 ```Perl
-perl -lne 'push (@M,"$1") while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pernunciation:\\e[m"; foreach $file (@M) { $file =~ /us/i ? `wget -c -q -show-progress $file` : "" }}'
+perl -lne 'push (@M,"$1") while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pernunciation:\\e[m"; foreach $file (@M) { $file =~ /us/i ? `wget -c -q --show-progress $file` : "" }}'
+```
+summary you will have something like this: (for find definition)
+```bash
+clear; read -p "Enter a word: " word && . dump_page.sh $word | perl -lne 'push @M,"$1" while /class="def".+?"> ?([a-z].+?)<(?!class)/g; END{ foreach $emp (@M) { $\
+emp =~ / +/ ? print "\e[0;32m$emp" : print "\e[5;31mmissed example\e[m" } }'
+
+
 ```
 
+## item three
+Just enjoy :) -- that's it.
 
 # handy-quick-dump with one-liners 
 ### dumps definitions, examples, and sounds file, from Longman Dictionary Online
-#### Still, I am thinking about put it in a video file or a picture! I do not know!
+#### You can do it by yourself. 
