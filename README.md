@@ -46,13 +46,10 @@ Of course everything that you dump, STILL, belongs to the two dictionaries.
 
 
 # handy-quick-dump with one-liners
-### dumps definitions, examples, and sounds file , from Oxford Dictionary Online
+### dumps definitions, examples, and sounds file , from [Oxford Dictionary Online](http://www.oxfordlearnersdictionaries.com/)
 Unfortunately I could not set device in **Ubuntu** to record a video along audio file, so I had to use picture again :).
 We do it in three item:
-   - item one:
-     - first find the address of the site
-     - second put the address in a `bash` file
-     - third dump which page we want
+
 
 ## item one:
 The address of the site : http://www.oxfordlearnersdictionaries.com/
@@ -81,30 +78,30 @@ Lastly we need Perl one-liners, which it will be:
 
 
 ## item two:
-dumping examples:
+#### dumping examples:
 ```Perl
 perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ foreach $file (@M) { print ++$n," : ",$file =~ /.+[.!?]$/g ? "\e[0;32m$file\e[m" : "\e[1;31mmissed example\e[m" } }'
 
 ```
 
-dumping definition:
+#### dumping definition:
 ```Perl
 perl -lne 'push @M,"$1" while /class="def".+?"> ?([a-z].+?)<(?!class)/g; END{ foreach $file (@M) { print ++$n," : ",$file =~ / +/g ? "\e[0;32m$file\e[m" : "\e[1;31mmissed example\e[m" } }'
 
 ```
 
-dumping hear pronunciation: (us/uk need to use `mpv`)
+#### hears pronunciation: (**us**/uk need to use `mpv`)
 ```Perl
 perl -lne 'push @M,"$1" while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pronunciation:\e[m"; foreach $file (@M) { $file =~ /us/i && `mpv $file` } }'
 
 ```
 
-dumping download pronunciation:(us/uk  need to use `wget`)
+#### downloads pronunciation:(**us**/uk  need to use `wget`)
 ```Perl
 perl -lne 'push @M,"$1" while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pronunciation:\e[m"; foreach $file (@M) { $file =~ /us/i && `wget -c -q --show-progress $file` } }'
 
 ```
-summary you will have something like this: (for find examples)
+#### Summary you will have something like this: (for find examples)
 ```bash
 
 read -p "Enter a word: " word && . dump_page.sh $word | perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ foreach $file (@M) { print ++$n," : ",$file =~ /.+[.!?]$/g ? "\e[0;32m$file\e[m" : "\e[1;31mmissed example\e[m" } }'
@@ -115,8 +112,8 @@ read -p "Enter a word: " word && . dump_page.sh $word | perl -lne 'push @M,"$1" 
 ![dumps from oxford dictionary online](https://github.com/k-five/illustrated_Perl_one-liners/blob/master/dump_oxford.gif)
 
 ## item three
-Just enjoy :) -- that's it.
+#### Just enjoy :) -- that's it.
 
 # handy-quick-dump with one-liners 
-### dumps definitions, examples, and sounds file, from Longman Dictionary Online
+### dumps definitions, examples, and sounds file, from [longman Dictionary Online]((http://www.ldoceonline.com/)
 #### You can do it by yourself. 
