@@ -68,7 +68,8 @@ Put that in a bash file like this:
 lynx -dump -source http://www.oxfordlearnersdictionaries.com/definition/english/$1\_1?q=$1
 ```
 
-This `chmod u+x dump_page.sh`
+Then do this:  
+`chmod u+x dump_page.sh`
 
 Just we need to get a word form user and pass it to the `. dump_page.sh` like this:
 
@@ -78,13 +79,27 @@ which it will dump the source page of each word that you want. If you enter a wo
 
 Lastly we need Perl one-liners, which it will be:
 
-For dumping examples:
 
-For dumping examples:
+### item two:
+dumping examples:
+```Perl
+perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ foreach $emp (@M) { $emp =~ /.+[.!?]$/ ? print "\e[0;32m$emp" : print "\e[5;31mmissed example\e[m" } }'
+```
 
-For dumping hear pronunciation: (us/uk need to use `mpv`)
+dumping definition:
+```Perl
+perl -lne 'push @M,"$1" while /class="def".+?"> ?([a-z].+?)\<(?!class)/g; END{ foreach $file (@M) {{ } }'
+```
 
-For dumping download pronunciation:(us/uk  need to use `wget`)
+dumping hear pronunciation: (us/uk need to use `mpv`)
+```Perl
+perl -lne 'push (@M,"$1") while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pernunciation:\e[m"; foreach $file (@M) { $file =~ /us/i ? `mpv $file` : "" }}'
+```
+
+dumping download pronunciation:(us/uk  need to use `wget`)
+```Perl
+perl -lne 'push (@M,"$1") while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pernunciation:\\e[m"; foreach $file (@M) { $file =~ /us/i ? `wget -c -q -show-progress $file` : "" }}'
+```
 
 
 # handy-quick-dump with one-liners 
