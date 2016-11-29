@@ -47,7 +47,45 @@ Of course everything that you dump, STILL, belongs to the two dictionaries.
 
 # handy-quick-dump with one-liners
 ### dumps definitions, examples, and sounds file , from Oxford Dictionary Online
-#### Still, I am thinking about put it in a video file or a picture! I do not know!
+Unfortunately I could not set device in **Ubuntu** to record a video along audio file, so I had to use picture again :).
+We do it in three item:
+   - item one:
+     - first find the address of the site
+     - second put the address in a `bash` file
+     - third dump which page we want
+
+### item one:
+The address of the site : http://www.oxfordlearnersdictionaries.com/
+
+If you search for a word like *see*, you will see this: (in address bar)  
+`http://www.oxfordlearnersdictionaries.com/definition/english/see_1?q=see`
+Then we copy this and put into a bash file, like this:
+
+
+Put that in a bash file like this:  
+```bash
+#!/bin/bash
+lynx -dump -source http://www.oxfordlearnersdictionaries.com/definition/english/$1\_1?q=$1
+```
+
+This `chmod u+x dump_page.sh`
+
+Just we need to get a word form user and pass it to the `. dump_page.sh` like this:
+
+`clear; read -p "Enter a word:" word && . dump_page.sh $word`
+
+which it will dump the source page of each word that you want. If you enter a word such as **gloomy** it will dump source for the gloomy word.
+
+Lastly we need Perl one-liners, which it will be:
+
+For dumping examples:
+
+For dumping examples:
+
+For dumping hear pronunciation: (us/uk need to use `mpv`)
+
+For dumping download pronunciation:(us/uk  need to use `wget`)
+
 
 # handy-quick-dump with one-liners 
 ### dumps definitions, examples, and sounds file, from Longman Dictionary Online
