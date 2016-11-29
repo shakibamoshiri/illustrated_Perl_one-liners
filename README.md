@@ -21,7 +21,7 @@ or ...
 
 
 # How to use:
-first
+First  
       - `git clone https://github.com/k-five/illustrated_Perl_one-liners`  
       - `cd illustrated_Perl_one-liners`
 
@@ -56,8 +56,6 @@ The address of the site : http://www.oxfordlearnersdictionaries.com/
 
 If you search for a word like *see*, you will see this: (in address bar)  
 `http://www.oxfordlearnersdictionaries.com/definition/english/see_1?q=see`
-Then we copy this and put into a bash file, like this:
-
 
 Put that in a bash file like this:  
 ```bash
@@ -101,19 +99,24 @@ perl -lne 'push @M,"$1" while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mU
 perl -lne 'push @M,"$1" while /data-src-mp3="(.+?\.mp3)/g; END{ print "\e[0;32mUS pronunciation:\e[m"; foreach $file (@M) { $file =~ /us/i && `wget -c -q --show-progress $file` } }'
 
 ```
-#### Summary you will have something like this: (for find examples)
+#### Summary you will have something like this: (finding examples)
 ```bash
-
 read -p "Enter a word: " word && . dump_page.sh $word | perl -lne 'push @M,"$1" while /class="x".+?"> ?([A-Z].+?)<(?!class)/g; END{ foreach $file (@M) { print ++$n," : ",$file =~ /.+[.!?]$/g ? "\e[0;32m$file\e[m" : "\e[1;31mmissed example\e[m" } }'
 
-
 ```
+### Animation of how them work:
 
 ![dumps from oxford dictionary online](https://github.com/k-five/illustrated_Perl_one-liners/blob/master/dump_oxford.gif)
 
 ## item three
 #### Just enjoy :) -- that's it.
 
+---
+
+## slideshow in youtube: 
+
+### [illustrated Perl one-liners](https://www.youtube.com/playlist?list=PL_akDzx9nCAFAsKLX4FxLs0xIsosZAoIN)
+---
 # handy-quick-dump with one-liners 
-### dumps definitions, examples, and sounds file, from [longman Dictionary Online]((http://www.ldoceonline.com/)
+### dumps definitions, examples, and sounds file, from [longman Dictionary Online](http://www.ldoceonline.com)
 #### You can do it by yourself. 
